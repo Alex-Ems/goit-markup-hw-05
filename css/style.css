@@ -779,7 +779,11 @@ img {
   transition: transform 250ms var(--animation);
 }
 
-.project-item:hover .project-hover-text {
+.project-link:hover .project-hover-text {
+  transform: translateY(0);
+  overflow: auto;
+}
+.project-link:focus .project-hover-text {
   transform: translateY(0);
   overflow: auto;
 }
