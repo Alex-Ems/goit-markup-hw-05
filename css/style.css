@@ -148,8 +148,11 @@ img {
   transition: color 250ms var(--animation), border-color 250ms var(--animation);
 }
 .social-link,
-.footer-social-link {
+{
   transition: color 250ms var(--animation), background-color 250ms var(--animation);
+}
+.footer-social-link {
+  transition: background-color 250ms var(--animation);
 }
 
 .haeder-logo {
@@ -746,6 +749,7 @@ img {
   box-sizing: border-box;
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: 0;
 }
 
 .project-top-text {
